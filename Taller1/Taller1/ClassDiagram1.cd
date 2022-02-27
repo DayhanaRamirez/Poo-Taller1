@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Taller1.Product">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Taller1.FixedPriceProduct">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FixedPriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.ComposedProduct">
+    <Position X="6.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>ComposedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.VariablePriceProduct">
+    <Position X="6.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>VariablePriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Taller1.IPay">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
