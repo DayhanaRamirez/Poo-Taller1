@@ -34,7 +34,6 @@
                 productsDetails += "\n" + product.ToString();
             }
             return 
-                $"\n" +
                 $"\nRECEIPT" +
                 $"\n-------------------------------------------------" +
                 $"{productsDetails}" +
