@@ -16,8 +16,8 @@
 
         public decimal ValueToPay()
         {
-           decimal totalValue = 0;
-            
+            decimal totalValue = 0;
+
             foreach (Product product in _products)
             {
                 totalValue += product.ValueToPay();
@@ -29,16 +29,17 @@
         public override string ToString()
         {
             string productsDetails = "";
+
             foreach (Product product in _products)
             {
                 productsDetails += "\n" + product.ToString();
             }
-            return 
-                $"\nRECEIPT" +
-                $"\n-------------------------------------------------" +
-                $"{productsDetails}" +
-                $"\n                    ============" +
-                $"\n  TOTAL...........: {$"{ValueToPay():C2}", 12}";
+
+            return  $"\nRECEIPT" +
+                    $"\n-------------------------------------------------" +
+                    $"{productsDetails}" +
+                    $"\n                    ============" +
+                    $"\n  TOTAL...........: {$"{ValueToPay():C2}",12}";
         }
     }
 }

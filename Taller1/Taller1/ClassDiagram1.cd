@@ -18,7 +18,7 @@
   <Class Name="Taller1.ComposedProduct">
     <Position X="6.25" Y="5.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
       <FileName>ComposedProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -28,6 +28,14 @@
       <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
       <FileName>VariablePriceProduct.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.Invoice">
+    <Position X="9.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAASAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Taller1.IPay">
     <Position X="1.75" Y="1.5" Width="1.5" />
